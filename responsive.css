@@ -1,0 +1,412 @@
+/* 320px */
+
+@media (max-width: 20em) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-container {
+    margin: 2rem 10rem;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .Top-burger {
+    margin: 0 17rem;
+  }
+  .Quote-box {
+    margin: 10rem;
+  }
+
+  .Quote-text {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  #our-menu {
+    font-size: 4rem;
+  }
+
+  .Statement {
+    font-size: 1.5rem;
+    margin: 2rem;
+  }
+
+  .menu-container h3 {
+    font-size: 3rem;
+  }
+
+  .menu-container img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .menu-container div {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .about-us-title {
+    font-size: 2rem;
+  }
+
+  .section-about-us p {
+    margin: 0 10rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .gallery {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-text {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .contact {
+    width: 100rem;
+  }
+
+  .table {
+    width: 30rem;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+
+  .address {
+    font-size: 1.5rem;
+    width: 100rem;
+    margin-left: 18rem;
+    margin-top: 4rem;
+    height: 10rem;
+  }
+  .number {
+    font-size: 1.5rem;
+    width: 100rem;
+    margin-left: 17rem;
+    margin-top: 4rem;
+    height: 10rem;
+  }
+
+  .email {
+    font-size: 1.5rem;
+    width: 100rem;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    height: 10rem;
+  }
+}
+
+/* 480 */
+
+@media (max-width: 30em) {
+    .container {
+        width: 480px;
+    }
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+  }
+  .section-container {
+    margin: 2rem 5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .Top-burger {
+    margin: 0 5rem;
+    width: 20rem;
+  }
+  .bestMeat {
+    width: 480px;
+    margin: 5rem 0;
+  }
+  .Quote-box {
+    margin: 2rem 5rem;
+  }
+
+  .Quote-text {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .menu {
+    width: 480px;
+  }
+  #our-menu {
+    font-size: 4rem;
+  }
+
+  .Statement {
+    font-size: 1.5rem;
+    margin: 2rem;
+  }
+
+  .menu-container h3 {
+    font-size: 3rem;
+  }
+
+  .menu-container img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .menu-container div {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .section-about-us {
+    width: 480px;
+    margin: 5rem 0;
+  }
+
+  .about-us-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .section-about-us p {
+    margin: 0 5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .gallery {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    width: 480px;
+  }
+
+  .img-text {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    width: 480px;
+  }
+
+  .contact {
+    width: 100rem;
+  }
+
+  table {
+    width: 480px;
+    margin: 4rem 0;
+    font-size: 2rem;
+  }
+  .Footer-nav {
+    padding: 0;
+  }
+address.contact {
+    width:480px;
+    text-align: center;
+}
+  p.address {
+    font-size: 1.5rem;
+    width: 480px;
+    margin-top: 4rem;
+    height: 10rem;
+  }
+  .number {
+    font-size: 1.5rem;
+    width: 480px;
+    text-align: center;
+
+    margin-top: 4rem;
+    height: 10rem;
+  }
+
+  .email {
+    font-size: 1.5rem;
+    width: 480px;
+    margin-top: 4rem;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+    .navbar{
+        width: 768px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+       
+      }
+      .section-container {
+        margin: 2rem 5rem;
+        font-size: 1rem;
+        line-height: 2rem;
+      }
+    
+      .Top-burger {
+        margin-left: 15rem;
+        width: 20rem;
+      }
+
+      .bestMeat {
+        width: 90%;
+        
+        
+      }
+      .Quote-box {
+        margin: 2rem 5rem;
+        width: 90%;
+      }
+    
+      .Quote-text {
+        font-size: 1rem;
+        line-height: 2rem;
+        
+      }
+
+      .footer {
+        flex-direction: column;
+        width: 768px;
+      }
+    
+      .contact {
+        width: 100rem;
+      }
+    
+      table {
+        width: 768px;
+        margin: 4rem 0;
+        font-size: 2rem;
+      }
+      .Footer-nav {
+        padding: 0;
+      }
+    address.contact {
+        width: 768px;
+        text-align: center;
+    }
+      p.address {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 768px;
+        margin-top: 4rem;
+        height: 10rem;
+      }
+      .number {
+        font-size: 1.5rem;
+        width: 768px;
+        text-align: center;
+    
+        margin-top: 4rem;
+        height: 10rem;
+      }
+    
+      .email {
+        font-size: 1.5rem;
+        width: 768px;
+        margin-top: 4rem;
+        height: 10rem;
+      }
+
+      .gallery {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5rem 0;
+        width: 768px;
+      }
+    
+      .img-text {
+        padding-bottom: 1rem;
+        font-size: 1rem;
+      }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 805px) {
+  .list {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4rem;
+    left: 100%;
+    transition: all 1s;
+  }
+  #check {
+    display: none;
+  }
+  .checkBtn {
+    display: block;
+  }
+  #check:checked ~ ul {
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        max-width: 1024px;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 1024px;
+      }
+    
+      .contact {
+        width: 100rem;
+      }
+    
+      table {
+        width: 1024px;
+        margin: 4rem 0;
+        font-size: 2rem;
+      }
+      .Footer-nav {
+        padding: 0;
+      }
+    address.contact {
+        width: 1024px;
+        text-align: center;
+    }
+      p.address {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 1024px;
+        margin-top: 4rem;
+        height: 10rem;
+      }
+      .number {
+        font-size: 1.5rem;
+        width: 1024px;
+        text-align: center;
+    
+        margin-top: 4rem;
+        height: 10rem;
+      }
+
+
+}

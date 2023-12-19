@@ -8,22 +8,31 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="HHH.css" />
+  <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
 
-  <nav class="main-nav ">
+  <nav class="navbar">
 
-    <ul class="main-nav-list container ">
-      <p class="logo-title">Harrison Hamburger House</p>
-      <li><a class="main-nav-link" href="#">Home</a></li>
-      <li><a class="main-nav-link" href="#our-menu">Our Menu</a></li>
-      <li><a class="main-nav-link" href="#about-us">About Us</a></li>
-      <li><a class="main-nav-link" href="#contact-us">Contact Us</a></li>
+    <div class="left">
+      <h1 class="logo-title">Harrison Hamburger House</h1>
+    </div>
+    <div class="right">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkBtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#our-menu">Our Menu</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#contact-us">Contact Us</a></li>
     </ul>
-
+  </div>
   </nav>
 
   <div class="container">
@@ -46,10 +55,10 @@
         </p>
       </div>
 
-      <img class="Top-burger" src="/assest/hamburger.jpg" alt="" />
+      <img class="Top-burger" src="assest/burger.jpg" alt="" />
     </header>
     <section>
-      <div class="">
+      <div class="bestMeat">
         <div class="Quote-box">
           <h2>"Best meat in town"</h2>
           <blockquote class="Quote-text">
@@ -74,7 +83,7 @@
         </div>
       </div>
     </section>
-
+<div class="menu">
     <h2 id="our-menu">Our menu</h2>
     <p class="Statement">
       Our hamburgers are all sorced in britain using britsh farmers and are all 100% britsh meat.
@@ -120,7 +129,7 @@
       </figure>
       <!-- </div> -->
     </section>
-
+</div>
     <section class="section-about-us" id="about-us">
 
       <H3 class="about-us-title">This history of harrison's Hamburger House</H3>
@@ -181,10 +190,13 @@
 
     </section>
     </section>
-    <h3 class="footer-heading">Contact us</h3>
+
+    <div><h3 class="footer-heading">Contact us</h3></div> 
     <footer class="footer" id="contact-us">
+    
+    
 
-
+<div></div>
       <div class="table">
         <table>
           <tr>

@@ -1,9 +1,6 @@
 /* general styles */
 
-
-
-
-body{
+body {
   font-family: "inter", sans-serif;
   color: #334155;
   background-color: #f5f5dc;
@@ -29,7 +26,6 @@ h2 {
   text-align: center;
   text-decoration: underline;
   margin-bottom: 4.8rem;
-  
 }
 
 /* header */
@@ -38,7 +34,6 @@ header {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 5rem;
   margin-top: 7rem;
-  
 }
 
 h1 {
@@ -57,8 +52,6 @@ h1 {
 
 .section-container {
   align-self: center;
-  
-  
 }
 
 .Top-burger {
@@ -92,7 +85,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4rem
+  margin-bottom: 4rem;
 }
 
 .grid-3-cols,
@@ -109,7 +102,7 @@ img {
 
 section.menu-container {
   width: 100%;
-    flex: 1;
+  flex: 1;
   display: flex;
   flex-direction: column;
   min-height: 40rem;
@@ -118,10 +111,8 @@ section.menu-container {
   margin-top: 1.2rem;
 }
 figure {
-  
   text-align: center;
   max-width: 290px;
-  
 }
 
 .Cheeseburger {
@@ -129,11 +120,11 @@ figure {
   border-radius: 5%;
 }
 
-.menu-text{
+.menu-text {
   line-height: 1.4rem;
 }
 
-.menu-title{
+.menu-title {
   margin-top: 1.2rem;
 }
 
@@ -156,10 +147,6 @@ figure {
   line-height: 1.4rem;
 }
 
-
-
-
-
 .copyright {
   margin-top: 2.4rem;
   margin-bottom: 2.4rem;
@@ -167,29 +154,45 @@ figure {
 }
 
 /* nav */
-
-.main-nav{
-  margin-bottom: 1.2rem;
- 
-}
-
-.main-nav-list {
-  
-  padding: 1.2rem;
-  list-style: none;
-  display: flex;
-  gap: 4.8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.navbar {
   background-color: #e1e1e1;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 5rem;
+  
+}
+.left h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.checkBtn {
+  display: none;
+  cursor: pointer;
+  font-size: 30px;
+  float: right;
+  color: black;
+  line-height: 80px;
+}
+#check {
+  display: none;
+}
+.right ul {
+  display: flex;
+  list-style: none;
+}
+.right ul li a {
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  color: #494942 ;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 1s;
 }
 
-.main-nav-link:link,
-.main-nav-link:visited {
+
+.right ul li:link,
+.right ul li:visited {
   display: inline-block;
   text-decoration: none;
   color: #334155;
@@ -198,27 +201,18 @@ figure {
   transition: all 0.3s;
 }
 
-.main-nav-link:hover,
-.main-nav-link:active {
-  color: #475466
+.right ul li a:hover,
+.right ul li a:active {
+  color: #475466;
 }
 
-.logo-title {
-  display: flex;
-  position: relative;
-  right: 20rem;
-  font-size: 1.4rem;
-  font-weight: 700;
-}
 /* About-us */
 
 .section-about-us {
-  
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
   padding: 20px;
-  
 }
 .about-us-title {
   display: flex;
@@ -227,25 +221,23 @@ figure {
   text-decoration: underline;
 }
 
-.about-us-text{
+.about-us-text {
   line-height: 1.6rem;
 }
 
 /* gallery */
 
-.gallery{
-
+.gallery {
   justify-content: space-evenly;
- max-width: 100%;
-      margin-top: 9.2rem;
+  max-width: 100%;
+  margin-top: 9.2rem;
   flex-direction: row;
   display: flex;
-  
 }
 
-.img-text{
+.img-text {
   font-style: italic;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 /* footer */
@@ -253,59 +245,60 @@ figure {
 .footer {
   position: absolute;
   display: flex;
-    align-items: space-evenly;
+  align-items: space-evenly;
   justify-content: space-evenly;
-        /* background-color: #334155; */
-      margin-bottom: 1.2rem;
+  /* background-color: #334155; */
+  
+  margin-bottom: 1.2rem;
   margin-right: 9.4rem;
   color: #334155;
   width: 60%;
 }
 
-.footer-heading{
+.footer-heading {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 
-
-.Footer-nav{
+.Footer-nav {
   list-style: none;
   display: flex;
   flex-direction: column;
-   padding-left: 5rem;
-   font-size: 1.2rem;
+  justify-content: center;
+  padding-left: 5rem;
+  font-size: 1.2rem;
   
 }
 
-table {
-    display: flex;
+.table {
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   margin-left: 3rem;
-  
-  
+  width: 70%;
+  line-height: 2rem;
 }
 
-th {
+.th {
   text-align: right;
   padding-right: 1.2rem;
   padding-bottom: 1.2rem;
+  padding-left: 1.2rem;
 }
 
-td{
+.td {
   padding-bottom: 1.2rem;
+  
 }
 
-.number{
-  padding: 1rem;
+.number {
+  padding: 2rem;
 }
 
-.address{
+.address {
   line-height: 1.2rem;
 }
-
-
